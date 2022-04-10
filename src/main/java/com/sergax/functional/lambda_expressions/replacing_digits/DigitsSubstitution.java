@@ -45,6 +45,13 @@ public class DigitsSubstitution {
                     default -> digit;
                 });
 
+        /**
+         * Or u could resolve this task with next approach :
+         */
+
+        int result2 = Utils.substitution(n, digit -> digit > 4 ? digit - 4 : digit);
+
         System.out.println(result);
+        System.out.println(result2);
     }
 }

@@ -35,11 +35,15 @@ public class DigitsSubstitution {
 
         long n = scanner.nextInt();
 
-        int result = Utils.substitution(n, digit -> digit == 5 ? 1 : digit);
-        int result2 = Utils.substitution(n, digit -> digit == 6 ? 2 : digit);
-        int result3 = Utils.substitution(n, digit -> digit == 7 ? 3 : digit);
-        int result4 = Utils.substitution(n, digit -> digit == 8 ? 4 : digit);
-        int result5 = Utils.substitution(n, digit -> digit == 9 ? 5 : digit);
+        int result = Utils.substitution(n, digit ->
+                switch (digit) {
+                    case 5 -> 1;
+                    case 6 -> 2;
+                    case 7 -> 3;
+                    case 8 -> 4;
+                    case 9 -> 5;
+                    default -> digit;
+                });
 
         System.out.println(result);
     }

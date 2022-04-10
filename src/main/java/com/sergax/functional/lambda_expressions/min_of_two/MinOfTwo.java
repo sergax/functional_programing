@@ -4,7 +4,8 @@ import java.util.function.BiFunction;
 
 /**
  * by Aksenchenko Serhii on 29.03.2022
- *
+ * ***********************************
+ * The task is :
  * The min of two numbers
  * Write a lambda expression that accepts two integer arguments and returns the minimum of them and then assign the lambda expression to the function variable. Don't forget to add the ; character on the end.
  *

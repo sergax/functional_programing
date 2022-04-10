@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 /**
  * by Aksenchenko Serhii on 29.03.2022
- * <p>
+ * ***********************************
+ * The task is :
  * Replacing digits of a number
  * In this task, you need to write your own rule and pass it to the substitution method
  * to replace the digits of a number. The definition is exactly the same as shown in the previous step.

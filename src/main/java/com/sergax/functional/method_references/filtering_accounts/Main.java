@@ -1,8 +1,6 @@
 package com.sergax.functional.method_references.filtering_accounts;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
@@ -11,12 +9,13 @@ import java.util.stream.Collectors;
  */
 public class Main {
     public static void printFilteredAccounts(List<Account> accounts) {
+        // write your code here
         List<Account> nonEmptyAccounts = filter(accounts,
-                account -> account.getBalance() > 0);// write your code here
+                account -> account.getBalance() > 0);
 
+        // write your code here
         List<Account> accountsWithTooMuchMoney = filter(accounts,
                 account -> !account.isLocked() && account.getBalance() >= 100_000_000);
-        // write your code here
 
         // Please, do not change the code below
         nonEmptyAccounts.forEach(a -> System.out.print(a.getNumber() + " "));

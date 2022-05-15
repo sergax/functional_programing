@@ -1,4 +1,4 @@
-package com.sergax.functional.method_references.filtering_accounts;
+package com.sergax.functional.chapter_3.method_references.filtering_accounts;
 
 import java.util.*;
 import java.util.function.Predicate;

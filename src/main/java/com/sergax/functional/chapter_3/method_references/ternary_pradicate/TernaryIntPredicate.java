@@ -1,5 +1,5 @@
 
-package com.sergax.functional.method_references.ternary_pradicate;
+package com.sergax.functional.chapter_3.method_references.ternary_pradicate;
 
 import java.util.stream.Stream;
 

@@ -1,4 +1,4 @@
-package com.sergax.functional.lambda_expressions.replacing_digits;
+package com.sergax.functional.chapter_3.lambda_expressions.replacing_digits;
 
 import java.util.function.Function;
 

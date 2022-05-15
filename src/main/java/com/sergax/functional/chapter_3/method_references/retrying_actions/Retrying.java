@@ -1,11 +1,6 @@
-package com.sergax.functional.method_references.retrying_actions;
+package com.sergax.functional.chapter_3.method_references.retrying_actions;
 
-import lombok.SneakyThrows;
-
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
 import java.util.Scanner;
-import java.util.zip.InflaterInputStream;
 
 /**
  * by Aksenchenko Serhii on 11.05.2022

@@ -1,11 +1,10 @@
-package com.sergax.functional.method_references.naive_task_manager;
+package com.sergax.functional.chapter_3.method_references.naive_task_manager;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Queue;
 import java.util.function.Supplier;
-import java.util.stream.Collectors;
 
 /**
  * by Aksenchenko Serhii on 13.05.2022

@@ -1,4 +1,4 @@
-package com.sergax.functional.method_references.filtering_accounts;
+package com.sergax.functional.chapter_3.method_references.filtering_accounts;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

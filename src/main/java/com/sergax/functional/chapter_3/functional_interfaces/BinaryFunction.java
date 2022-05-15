@@ -1,4 +1,4 @@
-package com.sergax.functional.functional_interfaces;
+package com.sergax.functional.chapter_3.functional_interfaces;
 
 /**
  * by Aksenchenko Serhii on 29.03.2022

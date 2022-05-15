@@ -1,4 +1,4 @@
-package com.sergax.functional.lambda_expressions.min_of_two;
+package com.sergax.functional.chapter_3.lambda_expressions.min_of_two;
 
 import java.util.function.BiFunction;
 

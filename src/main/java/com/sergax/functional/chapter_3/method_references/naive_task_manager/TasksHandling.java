@@ -1,4 +1,4 @@
-package com.sergax.functional.method_references.naive_task_manager;
+package com.sergax.functional.chapter_3.method_references.naive_task_manager;
 
 import java.util.Scanner;
 import java.util.function.Supplier;

@@ -1,4 +1,4 @@
-package com.sergax.functional.method_references.retrying_actions;
+package com.sergax.functional.chapter_3.method_references.retrying_actions;
 
 import lombok.NoArgsConstructor;
 

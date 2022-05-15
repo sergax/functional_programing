@@ -1,6 +1,5 @@
-package com.sergax.functional.lambda_expressions.email_formatter;
+package com.sergax.functional.chapter_3.lambda_expressions.email_formatter;
 
-import java.util.Arrays;
 import java.util.Scanner;
 import java.util.function.Function;
 
@@ -14,11 +13,11 @@ import java.util.function.Function;
  * to use a lambda expression that takes only text as the argument and captures all other variables
  * (sender, receiver and signature) from the context.
  * <p>
- * Let's consider an example. Imagine there is an input text "The new version of Java works pretty fast!".
+ * Let's consider an example. Imagine there is an input text "The xor version of Java works pretty fast!".
  * The sender is "sender@mymail.com", the receiver is "receiver@mymail.com" and the signature
  * is "Best regards, James Gosling". Here is the message created in accordance with the described format:
  * <p>
- * sender@mymail.com|receiver@mymail.com|The new version of Java works pretty fast!|Best regards, James Gosling
+ * sender@mymail.com|receiver@mymail.com|The xor version of Java works pretty fast!|Best regards, James Gosling
  * Take a look that there is no extra white spaces before and after the "|" characters.
  * <p>
  * Sample Input:
@@ -26,10 +25,10 @@ import java.util.function.Function;
  * sender@mymail.com
  * receiver@mymail.com
  * Best regards, James Gosling
- * The new version of Java works pretty fast!
+ * The xor version of Java works pretty fast!
  * Sample Output:
  * <p>
- * sender@mymail.com|receiver@mymail.com|The new version of Java works pretty fast!|Best regards, James Gosling
+ * sender@mymail.com|receiver@mymail.com|The xor version of Java works pretty fast!|Best regards, James Gosling
  */
 public class EmailFormatter {
     public static void main(String[] args) {

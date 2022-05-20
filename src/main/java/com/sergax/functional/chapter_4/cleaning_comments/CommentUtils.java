@@ -1,9 +1,8 @@
-package com.sergax.functional.chapter_4.handling_collections;
+package com.sergax.functional.chapter_4.cleaning_comments;
 
 import lombok.NoArgsConstructor;
 
 import java.text.SimpleDateFormat;
-import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
 

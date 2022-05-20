@@ -1,4 +1,4 @@
-package com.sergax.functional.chapter_4.handling_collections;
+package com.sergax.functional.chapter_4.cleaning_comments;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

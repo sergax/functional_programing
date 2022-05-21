@@ -31,13 +31,20 @@ public class TaskManager {
         }
         taskQueues.get(priority).add(task);
     }
+
     /**
      * Returns a supplier to access tasks in the right order according to their priority.
      * If all the queues are empty, it returns null.
      */
     public Supplier<Task> getTaskSupplier() {
-        return () -> taskQueues.stream()
-                .filter(taskQueue -> taskQueues.isEmpty() ? null : taskQueues.iterator().hasNext())
-                .findAny().get().poll();// write your code here
+        return () -> {
+            for (Queue<Task> taskQueue : taskQueues) {
+                Task newTask = taskQueue.poll();
+                if (newTask != null) {
+                    return newTask;
+                }
+            }
+            return null;
+        };
     }
 }

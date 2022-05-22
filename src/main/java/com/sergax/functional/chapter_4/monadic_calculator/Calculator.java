@@ -11,7 +11,6 @@ import java.util.function.Function;
  * @date : 22.05.22
  */
 
-@AllArgsConstructor
 public class Calculator<T extends Number> {
     private static final Calculator<?> BROKEN_CALCULATOR = new Calculator<>(true);
     /**

@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 /**
  * @author : sergax
  * @date : 25.05.22
- * <p>
+ *
  * You need to implement the findMaxEvenNumber method to find the maximum number that is divisible by 2 (even).
  * The method should return the found number or 0 if the stream doesn't contain any even numbers.
  */

@@ -8,6 +8,12 @@ import java.util.stream.Stream;
 /**
  * @author : sergax
  * @date : 25.05.22
+ *
+ * Here you need to implement the printSortedJavaEvents method that takes
+ * a list of event titles and must print only the names of Java-related events in the alphabetical order.
+ *
+ * An event is considered a Java-related if it contains the substring "Java" in the title.
+ * It is important that this substring can be written in any case: "java", "Java", "JAVA", etc, and they all must count.
  */
 
 public class SearchJavaEvents {

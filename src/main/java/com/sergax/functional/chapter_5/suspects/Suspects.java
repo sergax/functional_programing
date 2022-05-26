@@ -2,7 +2,6 @@ package com.sergax.functional.chapter_5.suspects;
 
 import java.util.List;
 import java.util.Scanner;
-import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 /**

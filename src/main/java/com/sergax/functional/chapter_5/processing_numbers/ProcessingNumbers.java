@@ -20,7 +20,6 @@ public class ProcessingNumbers {
         return numbers.stream().sorted(Comparator.reverseOrder())
                 .dropWhile(n -> n >= 100)
                 .distinct().sorted();
-
 //        2nd solution :
 //        numbers.stream().sorted().takeWhile(n -> n < 100).distinct();
 

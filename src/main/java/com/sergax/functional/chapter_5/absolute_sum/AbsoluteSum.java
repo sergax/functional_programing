@@ -17,7 +17,7 @@ public class AbsoluteSum {
     public static long sumOfAbsoluteNumbers(Collection<Long> numbers) {
         return numbers.stream()
                 .map(Math::abs)
-                .reduce((a, b) -> a + b).get();
+                .reduce(Long::sum).get();
         // write your code here
     }
 

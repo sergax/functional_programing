@@ -1,4 +1,4 @@
-package com.sergax.functional.chapter_6;
+package com.sergax.functional.chapter_6.generating_users;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

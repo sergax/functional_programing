@@ -3,7 +3,6 @@ package com.sergax.functional.chapter_6.xml_tags;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 
-import javax.swing.text.html.HTML;
 import java.util.List;
 
 /**

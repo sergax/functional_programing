@@ -3,7 +3,6 @@ package com.sergax.functional.chapter_6.average_monthly_salary;
 import java.util.Collection;
 import java.util.List;
 import java.util.Scanner;
-import java.util.stream.Collectors;
 
 /**
  * @author : sergax

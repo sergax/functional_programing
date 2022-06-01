@@ -1,6 +1,8 @@
 package com.sergax.functional.chapter_6.xml_tags;
 
 import java.util.List;
+import java.util.function.IntConsumer;
+import java.util.stream.IntStream;
 
 /**
  * @author : sergax

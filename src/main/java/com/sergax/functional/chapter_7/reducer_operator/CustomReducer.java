@@ -18,7 +18,7 @@ public class CustomReducer {
     public static final BiFunction<Integer, IntBinaryOperator, IntBinaryOperator> reduceIntOperator =
             (Integer x, IntBinaryOperator y) ->
                     (IntBinaryOperator) (left, right) ->
-                            IntStream.rangeClosed(left, right).reduce(x, (a, b) -> y.applyAsInt(a, b));
+                            IntStream.rangeClosed(left, right).reduce(x, y::applyAsInt);
     /**
      * The operator calculates the sum in the given range (inclusively)
      */
